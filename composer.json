@@ -1,0 +1,22 @@
+{
+    "name": "yaelherbert/appsalon",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Yaelherbert\\Appsalon\\": "src/",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "YaelHerbert",
+            "email": "yael.herbert@outlook.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.8"
+    }
+}
